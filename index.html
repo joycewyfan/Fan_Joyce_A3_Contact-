@@ -1,0 +1,1075 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./vars.css">
+  <link rel="stylesheet" href="./style.css">
+  
+  
+  <style>
+   a,
+   button,
+   input,
+   select,
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   * {
+       box-sizing: border-box;
+       margin: 0;
+       padding: 0;
+       border: none;
+       text-decoration: none;
+       background: none;
+   
+       -webkit-font-smoothing: antialiased;
+   }
+   
+   menu, ol, ul {
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+   }
+
+.contact-page,
+.contact-page * {
+  box-sizing: border-box;
+}
+.contact-page {
+  background: var(--soft-grey, #f2f2f2);
+  height: 2718px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-6 {
+  background: var(--warm-beige, #e6dac6);
+  width: 1440px;
+  height: 971px;
+  position: absolute;
+  left: 0px;
+  top: 120px;
+}
+.have-a-restaurant-you-think-i-should-try-want-to-collaborate-send-me-a-message {
+  color: var(--charcoal, #333333);
+  text-align: left;
+  font-family: "SpaceMono-Regular", sans-serif;
+  font-size: 30px;
+  line-height: var(--static-display-medium-line-height, 52px);
+  font-weight: 400;
+  position: absolute;
+  left: 120px;
+  top: 398px;
+  width: 590px;
+  height: 183px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.interested-in-my-work-follow-my-socials-where-i-post-about-my-food-reviews-and-my-life {
+  color: var(--charcoal, #333333);
+  text-align: left;
+  font-family: "SpaceMono-Regular", sans-serif;
+  font-size: 20px;
+  line-height: var(--static-headline-medium-line-height, 36px);
+  font-weight: 400;
+  position: absolute;
+  left: 120px;
+  top: 595px;
+  width: 590px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.instagram {
+  color: var(--charcoal, #333333);
+  text-align: left;
+  font-family: "WorkSans-Bold", sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 700;
+  position: absolute;
+  left: 120px;
+  top: 723px;
+  width: 369px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.joycee-fann {
+  width: 369px;
+  height: 36px;
+  position: absolute;
+  left: 120px;
+  top: 759px;
+}
+.joycee-fann2 {
+  color: var(--charcoal, #333333);
+  text-align: left;
+  font-family: "WorkSans-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 400;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.linkedin {
+  width: 369px;
+  height: 36px;
+  position: absolute;
+  left: 120px;
+  top: 834px;
+}
+.linkedin2 {
+  color: var(--charcoal, #333333);
+  text-align: left;
+  font-family: "WorkSans-Bold", sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 700;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.email {
+  color: var(--charcoal, #333333);
+  text-align: left;
+  font-family: "WorkSans-Bold", sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 700;
+  position: absolute;
+  left: 120px;
+  top: 909px;
+  width: 369px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.joycee-fann-gmail-com {
+  width: 369px;
+  height: 36px;
+  position: absolute;
+  left: 120px;
+  top: 945px;
+}
+.joycee-fann-gmail-com2 {
+  color: var(--charcoal, #333333);
+  text-align: left;
+  font-family: "WorkSans-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 400;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.conact-me-conact-me {
+  color: var(--charcoal, #333333);
+  text-align: center;
+  font-family: "NicoMoji-Regular", sans-serif;
+  font-size: 150px;
+  line-height: var(--static-display-medium-line-height, 52px);
+  font-weight: 400;
+  position: absolute;
+  left: -300px;
+  top: 135px;
+  width: 2567px;
+  height: 195px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rectangle-8 {
+  background: var(--sage-green, #87a280);
+  border-radius: 60px;
+  width: 1308px;
+  height: 990px;
+  position: absolute;
+  left: 66px;
+  top: 1199px;
+}
+.rectangle-13 {
+  width: 565px;
+  height: 834px;
+  position: absolute;
+  left: 120px;
+  top: 1271px;
+  object-fit: cover;
+}
+.contact-me-via-email {
+  color: var(--charcoal, #333333);
+  text-align: left;
+  font-family: "NicoMoji-Regular", sans-serif;
+  font-size: 64px;
+  line-height: var(--static-display-medium-line-height, 52px);
+  font-weight: 400;
+  position: absolute;
+  left: 730px;
+  top: 1284px;
+  width: 484px;
+  height: 94px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.interested-in-working-together-have-any-questions-have-recommendations-or-even-just-want-to-chat-fill-out-some-information-and-i-will-be-in-touch-shortly-i-can-t-wait-to-hear-from-you {
+  color: var(--charcoal, #333333);
+  text-align: left;
+  font-family: "SpaceMono-Regular", sans-serif;
+  font-size: 20px;
+  line-height: var(--static-headline-medium-line-height, 36px);
+  font-weight: 400;
+  position: absolute;
+  left: 730px;
+  top: 1413px;
+  width: 598px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.group-13 {
+  position: absolute;
+  inset: 0;
+}
+.message-required {
+  text-align: left;
+  font-family: "WorkSans-Regular", sans-serif;
+  font-size: 20px;
+  line-height: var(--static-headline-medium-line-height, 36px);
+  font-weight: 400;
+  position: absolute;
+  left: 730px;
+  top: 1793px;
+  width: 514px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.message-required-span {
+  color: var(--charcoal, #333333);
+  line-height: 36px;
+}
+.message-required-span2 {
+  color: #5b5b5b;
+  line-height: 36px;
+}
+.rectangle-14 {
+  border-radius: 25px;
+  border-style: solid;
+  border-color: var(--charcoal, #333333);
+  border-width: 1px;
+  width: 591px;
+  height: 191px;
+  position: absolute;
+  left: 730px;
+  top: 1829px;
+}
+.group-14 {
+  position: absolute;
+  inset: 0;
+}
+.email-required {
+  text-align: left;
+  font-family: "WorkSans-Regular", sans-serif;
+  font-size: 20px;
+  line-height: var(--static-headline-medium-line-height, 36px);
+  font-weight: 400;
+  position: absolute;
+  left: 730px;
+  top: 1697px;
+  width: 514px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.email-required-span {
+  color: var(--charcoal, #333333);
+  line-height: 36px;
+}
+.email-required-span2 {
+  color: #5b5b5b;
+  line-height: 36px;
+}
+.rectangle-15 {
+  border-radius: 25px;
+  border-style: solid;
+  border-color: var(--charcoal, #333333);
+  border-width: 1px;
+  width: 590px;
+  height: 54px;
+  position: absolute;
+  left: 730px;
+  top: 1733px;
+}
+.group-15 {
+  position: absolute;
+  inset: 0;
+}
+.first-name {
+  color: var(--charcoal, #333333);
+  text-align: left;
+  font-family: "WorkSans-Regular", sans-serif;
+  font-size: 20px;
+  line-height: var(--static-headline-medium-line-height, 36px);
+  font-weight: 400;
+  position: absolute;
+  left: 730px;
+  top: 1598px;
+  width: 293px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.rectangle-16 {
+  border-radius: 25px;
+  border-style: solid;
+  border-color: var(--charcoal, #333333);
+  border-width: 1px;
+  width: 292px;
+  height: 54px;
+  position: absolute;
+  left: 730px;
+  top: 1634px;
+}
+.group-16 {
+  position: absolute;
+  inset: 0;
+}
+.last-name {
+  color: var(--charcoal, #333333);
+  text-align: left;
+  font-family: "WorkSans-Regular", sans-serif;
+  font-size: 20px;
+  line-height: var(--static-headline-medium-line-height, 36px);
+  font-weight: 400;
+  position: absolute;
+  left: 1027px;
+  top: 1598px;
+  width: 293px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.rectangle-17 {
+  border-radius: 25px;
+  border-style: solid;
+  border-color: var(--charcoal, #333333);
+  border-width: 1px;
+  width: 292px;
+  height: 54px;
+  position: absolute;
+  left: 1028px;
+  top: 1634px;
+}
+.send {
+  color: var(--sage-green, #87a280);
+  text-align: center;
+  font-family: "WorkSans-Bold", sans-serif;
+  font-size: 22px;
+  line-height: 36px;
+  font-weight: 700;
+  position: absolute;
+  left: 744px;
+  top: 2052px;
+  width: 129px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rectangle-7 {
+  border-radius: 60px;
+  width: 627px;
+  height: 783px;
+  position: absolute;
+  left: 730px;
+  top: 265px;
+  object-fit: cover;
+}
+.rectangle-9 {
+  background: var(--pure-white, #ffffff);
+  width: 1440px;
+  height: 120px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.group-11 {
+  width: 384px;
+  height: 120px;
+  position: absolute;
+  left: 60px;
+  top: 0px;
+}
+.group-112 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.the-fan-club {
+  color: var(--charcoal, #333333);
+  text-align: center;
+  font-family: "NicoMoji-Regular", sans-serif;
+  font-size: 45px;
+  line-height: var(--static-display-medium-line-height, 52px);
+  font-weight: 400;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.food-edition {
+  color: var(--charcoal, #333333);
+  text-align: center;
+  font-family: "SpaceMono-Regular", sans-serif;
+  font-size: 22px;
+  line-height: var(--static-display-medium-line-height, 52px);
+  font-weight: 400;
+  position: absolute;
+  right: 6.25%;
+  left: 6.25%;
+  width: 87.5%;
+  bottom: 2.5%;
+  top: 63.33%;
+  height: 34.17%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.group-19 {
+  position: absolute;
+  inset: 0;
+}
+.food-review {
+  width: 195px;
+  height: 41px;
+  position: absolute;
+  left: 755px;
+  top: 76px;
+}
+.food-review2 {
+  color: #7e7e7e;
+  text-align: center;
+  font-family: "SpaceMono-Regular", sans-serif;
+  font-size: 22px;
+  line-height: var(--static-display-medium-line-height, 52px);
+  font-weight: 400;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.top-picks {
+  width: 176px;
+  height: 41px;
+  position: absolute;
+  left: 950px;
+  top: 76px;
+}
+.top-picks2 {
+  color: #7e7e7e;
+  text-align: center;
+  font-family: "SpaceMono-Regular", sans-serif;
+  font-size: 22px;
+  line-height: var(--static-display-medium-line-height, 52px);
+  font-weight: 400;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about {
+  width: 140px;
+  height: 41px;
+  position: absolute;
+  left: 1126px;
+  top: 76px;
+}
+.about2 {
+  color: #7e7e7e;
+  text-align: center;
+  font-family: "SpaceMono-Regular", sans-serif;
+  font-size: 22px;
+  line-height: var(--static-display-medium-line-height, 52px);
+  font-weight: 400;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact {
+  width: 136px;
+  height: 41px;
+  position: absolute;
+  left: 1266px;
+  top: 76px;
+}
+.contact2 {
+  color: var(--charcoal, #333333);
+  text-align: center;
+  font-family: "SpaceMono-Regular", sans-serif;
+  font-size: 22px;
+  line-height: var(--static-display-medium-line-height, 52px);
+  font-weight: 400;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.group-23 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-10 {
+  background: var(--charcoal, #333333);
+  width: 1440px;
+  height: 422px;
+  position: absolute;
+  left: 0px;
+  top: 2296px;
+}
+.frame-5 {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 205px;
+  position: absolute;
+  left: 633px;
+  top: 2374px;
+}
+.explore {
+  color: var(--pure-white, #ffffff);
+  text-align: left;
+  font-family: "SpaceMono-Bold", sans-serif;
+  font-size: 22px;
+  line-height: var(--static-display-medium-line-height, 52px);
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+  height: 41px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.about3 {
+  flex-shrink: 0;
+  width: 205px;
+  height: 41px;
+  position: relative;
+}
+.about4 {
+  color: var(--pure-white, #ffffff);
+  text-align: left;
+  font-family: "SpaceMono-Regular", sans-serif;
+  font-size: 22px;
+  line-height: var(--static-display-medium-line-height, 52px);
+  font-weight: 400;
+  text-decoration: underline;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.food-review3 {
+  flex-shrink: 0;
+  width: 205px;
+  height: 41px;
+  position: relative;
+}
+.food-review4 {
+  color: var(--pure-white, #ffffff);
+  text-align: left;
+  font-family: "SpaceMono-Regular", sans-serif;
+  font-size: 22px;
+  line-height: var(--static-display-medium-line-height, 52px);
+  font-weight: 400;
+  text-decoration: underline;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.my-top-picks {
+  flex-shrink: 0;
+  width: 205px;
+  height: 41px;
+  position: relative;
+}
+.my-top-picks2 {
+  color: var(--pure-white, #ffffff);
+  text-align: left;
+  font-family: "SpaceMono-Regular", sans-serif;
+  font-size: 22px;
+  line-height: var(--static-display-medium-line-height, 52px);
+  font-weight: 400;
+  text-decoration: underline;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.contact3 {
+  flex-shrink: 0;
+  width: 205px;
+  height: 41px;
+  position: relative;
+}
+.contact4 {
+  color: var(--pure-white, #ffffff);
+  text-align: left;
+  font-family: "SpaceMono-Regular", sans-serif;
+  font-size: 22px;
+  line-height: var(--static-display-medium-line-height, 52px);
+  font-weight: 400;
+  text-decoration: underline;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-6 {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 167px;
+  position: absolute;
+  left: 865px;
+  top: 2374px;
+}
+.follow-me {
+  color: var(--pure-white, #ffffff);
+  text-align: left;
+  font-family: "SpaceMono-Bold", sans-serif;
+  font-size: 22px;
+  line-height: var(--static-display-medium-line-height, 52px);
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+  height: 41px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.instagram2 {
+  flex-shrink: 0;
+  width: 167px;
+  height: 41px;
+  position: relative;
+}
+.instagram3 {
+  color: var(--pure-white, #ffffff);
+  text-align: left;
+  font-family: "SpaceMono-Regular", sans-serif;
+  font-size: 22px;
+  line-height: var(--static-display-medium-line-height, 52px);
+  font-weight: 400;
+  text-decoration: underline;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.linkedin3 {
+  flex-shrink: 0;
+  width: 167px;
+  height: 41px;
+  position: relative;
+}
+.linkedin4 {
+  color: var(--pure-white, #ffffff);
+  text-align: left;
+  font-family: "SpaceMono-Regular", sans-serif;
+  font-size: 22px;
+  line-height: var(--static-display-medium-line-height, 52px);
+  font-weight: 400;
+  text-decoration: underline;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.updates-news-sign-up-with-your-email {
+  color: #ffffff;
+  text-align: left;
+  font-family: "SpaceMono-Bold", sans-serif;
+  font-size: 22px;
+  line-height: 36px;
+  font-weight: 700;
+  position: absolute;
+  left: 1042px;
+  top: 2390px;
+  width: 310px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.email2 {
+  width: 310px;
+  height: 66px;
+  position: absolute;
+  left: 1042px;
+  top: 2470px;
+}
+.rectangle-11 {
+  background: var(--pure-white, #ffffff);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.email-address {
+  color: #d8d8d8;
+  text-align: left;
+  font-family: "WorkSans-Regular", sans-serif;
+  font-size: 22px;
+  line-height: 36px;
+  font-weight: 400;
+  position: absolute;
+  right: 0%;
+  left: 4.84%;
+  width: 95.16%;
+  bottom: 15.15%;
+  top: 15.15%;
+  height: 69.7%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.footer-sign-up {
+  width: 168px;
+  height: 55px;
+  position: absolute;
+  left: 1042px;
+  top: 2552px;
+}
+.rectangle-12 {
+  background: var(--warm-beige, #e6dac6);
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.sign-up {
+  color: var(--charcoal, #333333);
+  text-align: center;
+  font-family: "SpaceMono-Regular", sans-serif;
+  font-size: 22px;
+  line-height: 36px;
+  font-weight: 400;
+  position: absolute;
+  right: 9.52%;
+  left: 8.93%;
+  width: 81.55%;
+  bottom: 7.27%;
+  top: 9.09%;
+  height: 83.64%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.white-logo {
+  width: 384px;
+  height: 120px;
+  position: absolute;
+  left: 66px;
+  top: 2344px;
+}
+.the-fan-club2 {
+  color: var(--pure-white, #ffffff);
+  text-align: center;
+  font-family: "NicoMoji-Regular", sans-serif;
+  font-size: 45px;
+  line-height: var(--static-display-medium-line-height, 52px);
+  font-weight: 400;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.food-edition2 {
+  color: var(--pure-white, #ffffff);
+  text-align: center;
+  font-family: "SpaceMono-Regular", sans-serif;
+  font-size: 22px;
+  line-height: var(--static-display-medium-line-height, 52px);
+  font-weight: 400;
+  position: absolute;
+  right: 6.25%;
+  left: 6.25%;
+  width: 87.5%;
+  bottom: 0%;
+  top: 65.83%;
+  height: 34.17%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-email {
+  width: 158px;
+  height: 55px;
+  position: absolute;
+  left: 730px;
+  top: 2047px;
+}
+.send2 {
+  color: var(--sage-green, #87a280);
+  text-align: center;
+  font-family: "WorkSans-Bold", sans-serif;
+  font-size: 22px;
+  line-height: 36px;
+  font-weight: 700;
+  position: absolute;
+  right: 8.86%;
+  left: 9.49%;
+  width: 81.65%;
+  bottom: 7.27%;
+  top: 9.09%;
+  height: 83.64%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+   </style>
+  <title>Document</title>
+</head>
+<body>
+  <div class="contact-page">
+    <div class="rectangle-6"></div>
+    <div
+      class="have-a-restaurant-you-think-i-should-try-want-to-collaborate-send-me-a-message"
+    >
+      Have a restaurant you think I should try? Want to collaborate?
+      <br />
+      Send me a message!
+    </div>
+    <div
+      class="interested-in-my-work-follow-my-socials-where-i-post-about-my-food-reviews-and-my-life"
+    >
+      Interested in my work? Follow my socials. Where I post about my food reviews
+      and my life.
+    </div>
+    <div class="instagram">Instagram</div>
+    <div class="joycee-fann">
+      <div class="joycee-fann2">@joycee.fann</div>
+    </div>
+    <div class="linkedin">
+      <div class="linkedin2">Linkedin</div>
+    </div>
+    <div class="email">Email</div>
+    <div class="joycee-fann-gmail-com">
+      <div class="joycee-fann-gmail-com2">joycee.fann@gmail.com</div>
+    </div>
+    <div class="conact-me-conact-me">CONACT ME CONACT ME</div>
+    <div class="rectangle-8"></div>
+    <img class="rectangle-13" src="rectangle-130.png" />
+    <div class="contact-me-via-email">Contact me via email</div>
+    <div
+      class="interested-in-working-together-have-any-questions-have-recommendations-or-even-just-want-to-chat-fill-out-some-information-and-i-will-be-in-touch-shortly-i-can-t-wait-to-hear-from-you"
+    >
+      Interested in working together? Have any questions? Have recommendations? Or
+      even just want to chat? Fill out some information and I will be in touch
+      shortly. I can’t wait to hear from you!
+    </div>
+    <div class="message-required">
+      <span>
+        <span class="message-required-span">Message</span>
+        <span class="message-required-span2">(required)</span>
+      </span>
+    </div>
+    <div class="rectangle-14"></div>
+    <div class="email-required">
+      <span>
+        <span class="email-required-span">Email</span>
+        <span class="email-required-span2">(required)</span>
+      </span>
+    </div>
+    <div class="rectangle-15"></div>
+    <div class="first-name">First Name</div>
+    <div class="rectangle-16"></div>
+    <div class="last-name">Last Name</div>
+    <div class="rectangle-17"></div>
+    <div class="send">Send</div>
+    <img class="rectangle-7" src="rectangle-70.png" />
+    <div class="rectangle-9"></div>
+    <div class="group-11">
+      <div class="group-112">
+        <div class="the-fan-club">The Fan Club</div>
+        <div class="food-edition">Food Edition</div>
+      </div>
+    </div>
+    <div class="food-review">
+      <div class="food-review2">Food Review</div>
+    </div>
+    <div class="top-picks">
+      <div class="top-picks2">Top Picks</div>
+    </div>
+    <div class="about">
+      <div class="about2">About</div>
+    </div>
+    <div class="contact">
+      <div class="contact2">Contact</div>
+    </div>
+    <div class="rectangle-10"></div>
+    <div class="frame-5">
+      <div class="explore">Explore</div>
+      <div class="about3">
+        <div class="about4">About</div>
+      </div>
+      <div class="food-review3">
+        <div class="food-review4">Food Review</div>
+      </div>
+      <div class="my-top-picks">
+        <div class="my-top-picks2">My Top Picks</div>
+      </div>
+      <div class="contact3">
+        <div class="contact4">Contact</div>
+      </div>
+    </div>
+    <div class="frame-6">
+      <div class="follow-me">Follow Me</div>
+      <div class="instagram2">
+        <div class="instagram3">Instagram</div>
+      </div>
+      <div class="linkedin3">
+        <div class="linkedin4">Linkedin</div>
+      </div>
+    </div>
+    <div class="updates-news-sign-up-with-your-email">
+      Updates? News? Sign up with your email.
+    </div>
+    <div class="email2">
+      <div class="rectangle-11"></div>
+      <div class="email-address">Email Address</div>
+    </div>
+    <div class="footer-sign-up">
+      <div class="rectangle-12"></div>
+      <div class="sign-up">Sign Up</div>
+    </div>
+    <div class="white-logo">
+      <div class="the-fan-club2">The Fan Club</div>
+      <div class="food-edition2">Food Edition</div>
+    </div>
+    <div class="contact-email">
+      <div class="rectangle-12"></div>
+      <div class="send2">Send</div>
+    </div>
+  </div>
+  
+</body>
+</html>
